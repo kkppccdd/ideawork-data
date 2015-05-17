@@ -1,0 +1,37 @@
+{
+  "name": "ideawork-service",
+  "version": "0.1.0",
+  "description": "ideawork-service",
+  "main": "APP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  	"dependencies": 
+	{
+		"express": "4.10.6",
+		"cookie-session":"1.1.0",
+		"ejs": "1.0.0",
+		"serve-favicon": "~2.0.0",
+		"morgan": "~1.0.0",
+		"cookie-parser": "~1.0.1",
+		"body-parser": "~1.0.0",
+		"mongodb": "1.4.26",
+		"mongoskin": "1.4.4",
+		"eventproxy":"0.3.1",
+		"urllib":"2.2.1",
+		"passport":"0.2.1",
+		"passport-http":"0.2.2"
+	},
+	"devDependencies":{
+		"errorhandler":"1.3.0"
+	}
+}
